@@ -1,0 +1,29 @@
+{
+  "document": {
+    "category": "csaf_v2.0",
+    "title": "Security Advisory TITLE",
+    "publisher": {"name": "Your Org", "category": "vendor"},
+    "tracking": {
+      "id": "YOUR-ADVISORY-ID",
+      "status": "draft",
+      "version": "1.0.0",
+      "revision_history": [{"number":"1.0.0","date":"YYYY-MM-DD","summary":"Initial advisory."}],
+      "initial_release_date": "YYYY-MM-DD",
+      "current_release_date": "YYYY-MM-DD"
+    }
+  },
+  "product_tree": {
+    "full_product_names": [
+      {"name": "Product X v1.2.3", "product_id": "prod-001"}
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-YYYY-XXXX",
+      "notes": [{"category":"description","text":"Short impact description."}],
+      "remediations": [{"category":"vendor_fix","details":"Apply patch 1.2.4","product_ids": ["prod-001"]}],
+      "threats": [{"category":"exploit_status","details":"No known active exploitation."}],
+      "references": [{"url":"https://yourdomain.com/advisories/YOUR-ADVISORY-ID"}]
+    }
+  ]
+}

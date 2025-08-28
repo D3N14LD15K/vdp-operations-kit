@@ -1,0 +1,6 @@
+{
+  "exploitation": "poc",
+  "exposure": "internet",
+  "safety": "none",
+  "automatable": "high"
+}

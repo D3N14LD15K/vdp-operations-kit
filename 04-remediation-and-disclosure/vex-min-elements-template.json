@@ -1,0 +1,15 @@
+{
+  "vulnerabilities": [
+    {
+      "cve": "CVE-YYYY-XXXX",
+      "status": "NOT_AFFECTED",
+      "status_justification": "Component is not present / configuration not vulnerable.",
+      "products": ["Product X v1.2.3"],
+      "notes": "Add explanation and detection basis (evidence or SBOM)"
+    }
+  ],
+  "metadata": {
+    "author": "Your Org",
+    "timestamp": "YYYY-MM-DDTHH:MM:SSZ"
+  }
+}
